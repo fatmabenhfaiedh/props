@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Profile from './profile/Profile';
+import PropTypes from 'prop-types';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Profile fullName= "Fatma Ben Hfaiedh" bio= "Curious and ambitious being, Into Arts, Culture, Music and Geekness" profession= "Architect, Graphic Designer, Founder of the brand Chertilla and a Djembefola" age= "28"></Profile>
     </div>
   );
 }
